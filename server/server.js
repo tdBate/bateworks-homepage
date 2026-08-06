@@ -23,5 +23,5 @@ app.get("/tempreader",(req,res)=>{
 });
 
 app.use((req,res)=>{
-    res.status(200).sendFile(path.join(base_path,"indexsite","index.html"));
+    res.status(200).sendFile(path.join(base_path,"bateworks-index","index.html"));
 });
